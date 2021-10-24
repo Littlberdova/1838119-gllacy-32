@@ -1,0 +1,478 @@
+@font-face {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/inter-400.woff2") format("woff2");
+    font-display: swap;
+}
+@font-face {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    src: url("../fonts/inter-700.woff2") format("woff2");
+    font-display: swap;
+}
+@font-face {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 900;
+    src: url("../fonts/inter-900.woff2") format("woff2");
+    font-display: swap;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction:column;
+   font-family: "Inter", sans-serif;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 22px;
+   color: #565C66;
+   background-color: #FEAFC3;
+   margin: 0 auto;
+}
+
+.navigation {
+    display:flex;
+    justify-content: space-between;
+    width:1170px;
+}
+
+.left-navigation-list {
+    margin:0;
+    padding-left: 98px;
+    padding-bottom: 34px;
+    padding-top: 34px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+}
+
+.left-navigation-list li:first-child {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.left-navigation-link {
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration: none;
+    color: #2D3440;
+    width: 560px;
+    padding:16px;
+}
+
+.right-navigation-list {
+    padding:0;
+    width: 520px;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+}
+
+.product-slider {
+    display:flex;
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.slide-text {
+    display:flex;
+    flex-direction: column;
+    width: 470px;
+}
+
+/*Выгодные акции*/
+
+.promotion-list {
+  display: grid;
+  grid-template-columns: repeat(2,570px);
+  gap: 30px;
+  padding: 0;
+  list-style-type: none;
+  margin: 0 auto; /*Не получается отцентровать блок*/
+}
+
+/*Самые популярные вкусы*/
+.famous-tastes-list {
+    display: grid;
+    grid-template-columns: repeat(4,270px);
+    padding: 0;
+    gap: 30px;
+    list-style-type: none;
+    margin-bottom: 80px;
+}
+
+.famous-tastes-item {
+    background-color: #FCFCFC;
+}
+
+/*Философия компании*/
+
+.company-philosophy {
+    background-color: #FCFCFC;
+    width: 1170px;
+    margin-top: 0;
+    margin-bottom: 80px;
+}
+
+.main-phulosophy-list {
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    gap: 40px;
+    list-style-type: none;
+    padding: 0;
+    padding-left: 40px;
+    margin: 0;
+}
+
+.main-phulosophy-item:last-child {
+    margin-bottom: 56px;
+}
+
+/*Оформление подписки*/
+
+.subscribe-section {
+    margin-top: 0;
+    margin-bottom: 76px;
+    display: flex;
+    justify-content: space-between;
+    width: 1170px;
+}
+
+.article-block {
+    width: 570px;
+}
+
+.phone {
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 20px;
+   text-decoration: none;
+   color: #2D3440;
+}
+
+.right-navigation-link {
+   font-size: 14px;
+   line-height: 20px;
+   text-decoration: none;
+   color: #2D3440;
+}
+
+.product-slider-header {
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 40px;
+    color: #2D3440;
+}
+
+.button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #2D3440;
+}
+
+.emphasise {
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 46px;
+    color: #2D3440;
+    text-align: center;
+}
+
+.promotion-item-header {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #2D3440;
+}
+
+.famous-tastes-header {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #2D3440;
+    text-align: center;
+}
+
+.price {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #2D3440;
+}
+
+.new-in-blog {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #565C66;
+}
+
+.blog-header {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color:#2D3440;
+}
+
+.submit-button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color:#FCFCFC;
+    text-align: center;
+    background-color: #FF2F64;
+}
+
+.form-field-name {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #2D3440;
+}
+
+.address {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #2D3440;
+    font-style: normal;
+}
+
+.additional-info-link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #2D3440;
+    text-decoration: none;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.production {
+    font-size: 12px;
+    line-height: 16px;
+    color: #2D3440;
+}
+
+.raspberry-promotion {
+    background-color: #FF7799;
+    background-image: url("../img/raspberry.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.marshmallow-promotion {
+    background-color: #FF7799;
+    background-image: url("../img/marshmallow.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.famous-tastes-img {
+    border-radius: 50%;
+}
+
+.article-block {
+    background-image: url("../img/article-background.jpg");
+    background-repeat: no-repeat;
+}
+
+.subscribe-form {
+    background-color: #FCFCFC; 
+    width: 570px;
+}
+
+.feedback-section {
+    background-image: url(../img/form-background.jpg);
+    background-repeat: no-repeat;
+    width: 1170px;
+    margin-top: 0;
+    margin-bottom: 80px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section-description {
+    width: 371px;
+    margin-bottom: 163px;
+    margin-left: 100px;
+    margin-top: 167px;
+    margin-right: 135px;
+}
+
+.form {
+    background-color: #FCFCFC;
+    width: 500px;
+    display: grid;
+    grid-template-columns: 117px 287px;
+    gap: 16px;
+    margin-top: 64px;
+    margin-bottom: 64px;
+    margin-left: 0;
+    margin-right: 64px;
+}
+
+/*Контакты*/
+
+.contacts-section {
+    background-image: url("../img/contacts-background.jpg");
+    background-repeat: no-repeat;
+    width: 1170px;
+    margin-top: 0;
+    margin-bottom: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.contacts-block {
+    width: 343px;
+    margin-top: 64px;
+    margin-bottom: 64px;
+    margin-left: 64px;
+}
+
+.address-block {
+    background-color: #FCFCFC;
+}
+
+/*Разметка страницы каталога*/
+
+.catalog-header {
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 46px;
+    color: #2D3440;
+}
+
+.sort-option {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #2D3440;
+}
+
+.product-title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #2D3440;
+}
+
+.product-price {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #2D3440;
+}
+
+.show-more {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #2D3440;
+}
+
+.page-pagination-link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration: none;
+    color: #2D3440;
+}
+
+.htmlacademy-link {
+    color:#2D3440;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+/*Футер*/
+
+.page-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 102px;
+    margin-right: 98px;
+    margin-bottom:57px;
+    margin-top: 48px;
+}
+
+/*Страница каталога*/
+
+.catalog-form {
+    display: flex;
+    width: 807px;
+    flex-wrap: wrap;
+
+}
+
+.catalog-list {
+    padding:0;
+    display: grid;
+    grid-template-columns: repeat(4,270px);
+    row-gap: 91px;
+    column-gap: 30px;
+    list-style-type: none;
+}
+
+.catalog-item {
+    background-color: #FCFCFC;
+    display: grid;
+}
+
+.product-img {
+    border-radius: 50%;
+    width: 168px;
+    height: 168px;
+}
+
+.page-navigation {
+    display: flex;
+    width: 1366px;
+}
+
+.show-more {
+    margin-left:auto; /*Не понимаю, почему не появляется отступ*/
+    margin-right: 303px;
+    width:min-content;
+}
+
+.page-pagination-list {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+
+.page-pagination-item {
+    flex-shrink: 0;
+    margin-right: 16px;
+}
+
+.page-pagination-item:last-child {
+    margin-right: 0;
+}
